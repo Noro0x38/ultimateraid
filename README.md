@@ -18,6 +18,8 @@
 
   Par moment, la console peut être spammée, quand par exemple le bot est banni du discord mais qu'il continue à essayer d'envoyer des messages, beaucoup de messages d'erreur apparaissent. Pour remédier à ça, vous devez fermer le run.bat et le relancer, ce qui relance le bot.
   
-Si le bot apparrait hors ligne c'est normal, c'est pour réduire les chances qu'il soit banni. Tant que le run.bat est ouvert, le bot est lancé.
+  Si le bot apparrait hors ligne c'est normal, c'est pour réduire les chances qu'il soit banni. Tant que le run.bat est ouvert, le bot est lancé.
+
+  Si vous remarquez que le banall ne fonctionne pas (que le bot ne détecte pas les autres membres), assurez vous que ces deux cases sont bien cochées comme l'indique <a href="https://prnt.sc/z5d6me"> cette image </a>
 
 # Faites la commande help pour avoir la liste des commandes. Amusez vous bien!
