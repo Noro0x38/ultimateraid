@@ -1,31 +1,23 @@
-# ultimateraid - discord bot  (first repo)
+# ultimateraid - discord bot / script (premier repo)
 (JS) Ultimateraid is the ultimate raid bot for discord ! (Educational purpose)
 
-How to use:
+# Comment utiliser:
   
-  Run the install.bat file,
-  When it's finished, open the data.json file, and replace everything wtih what you want,
-  Then, just run the run.bat file, and if everything is ok, the bot should start correctly,
-  If you have any errors, you can contact me by discord: (0x38) Space#1234 (If my tag is not working, get any channel and send <@749955749462933554> , it will ping me and you will be able to friend request me.
+  Lancer le install.bat.
+  Ensuite, ouvrir le data.json et remplacer le token, prefix, message, etc. Ne touchez pas à la partie "owner". (ATTENTION! Les informations doivent rester des les "guillemets")
+  Enfin, lancer le run.bat, et si vous avez tout fait correctement, vous devriez voir un shell s'ouvrir, et l'invitation du bot apparaitre.
+  Vous pouvez maintenant copier-coller l'invitation du bot et vous amuser.
   
-Warning:
+# Si vous avez une erreur dans la console, vous pouvez vérifier si:
+  - Toutes les informations du data.json sont entre guillemet
+  - Le token entré est valide
+  - Le nom de channel est bien relié par des tirets et ne contient pas d'espaces ou de ponctuation (ex: nom-de-channel)
+  - Que vous testez bien le bot avec le bon prefix ^^
 
-  Soemtimes, the console can get spammed, when the bot is trying to send a message in a channel that doesn't exists anymore, this will be patched soon, but if it does that, you can juste close and run again the run.bat, it'll restart the bot.
+# Attention:
+
+  Par moment, la console peut être spammée, quand par exemple le bot est banni du discord mais qu'il continue à essayer d'envoyer des messages, beaucoup de messages d'erreur apparaissent. Pour remédier à ça, vous devez fermer le run.bat et le relancer, ce qui relance le bot.
   
-If the bot appears offline, it's ok, he is still online if you have your console opened.
+Si le bot apparrait hors ligne c'est normal, c'est pour réduire les chances qu'il soit banni. Tant que le run.bat est ouvert, le bot est lancé.
 
-Last thing if you're scared if the .bat files, you're free to open them with a text editor, you will see there is nothing harmful.
-
-Help command has been added, but it is here if you need it :
-
-    add {amount} : adds the amount you want of channels & roles (if no amount provided, will just add 50)
-    del : deletes all channels & roles
-    admin : creates an admin role for each member and gives it to him
-    ban : bans every member from the server 
-    gay : creates a channel for every member and tells him that he is gay 20 times in it
-    guildname : changes the guild name with the discord you provided in data.json
-    jul : pms everone with a jul picture and your discord 
-    nick : nicks everyone in the server with the discord you provided in data.json
-    spam : spams the message you provided in data.json
-    total : does everything; deletes all channels, creates more, spams...
-
+# Faites la commande help pour avoir la liste des commandes. Amusez vous bien!
